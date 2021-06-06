@@ -1,4 +1,4 @@
-#imports
+#imports 
 import numpy as np
 import math
 import cv2
@@ -123,7 +123,7 @@ while capture.isOpened():
             cv2.putText(frame,'Please, put your finger in the right spot',(0,60),cv2.FONT_HERSHEY_SIMPLEX,2,(0,0,255),2)
             pass
     except:
-        print('HELLO !!')
+       # print('HELLO !!')
         pass
     cv2.imshow('frame',frame)
     #show required image
